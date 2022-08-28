@@ -1,0 +1,23 @@
+{
+  "name": "holepunch-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "hypercore-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alejandro Oviedo <alejandro.oviedo.g@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hyperspace/client": "^1.18.0",
+    "yargs": "^17.5.1"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}
